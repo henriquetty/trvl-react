@@ -4,14 +4,13 @@ import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Cards from "../../components/Cards";
 
-function Homepage() {
+function SignUp() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Cards />
+      <h1 className="sign-up">Sign up</h1>
     </>
   );
 }
 
-export default Homepage;
+export default SignUp;

@@ -4,14 +4,13 @@ import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Cards from "../../components/Cards";
 
-function Homepage() {
+function Products() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Cards />
+      <h1 className="products">Products</h1>
     </>
   );
 }
 
-export default Homepage;
+export default Products;
